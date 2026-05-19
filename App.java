@@ -6,7 +6,7 @@ import views.LineageValidationView;
 
 public class App {
     public static void main(String[] args) {
-        LineageValidationView lineageView = new LineageValidationView(new FamilyTreeController(new FamilyTree(null)),
+        LineageValidationView lineageView = new LineageValidationView(new FamilyTreeController(new FamilyTree()),
                 new Scanner(System.in));
         lineageView.startEnteringData();
     }

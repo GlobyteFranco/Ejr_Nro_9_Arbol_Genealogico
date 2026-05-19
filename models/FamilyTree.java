@@ -7,8 +7,8 @@ public class FamilyTree {// Responsable de recorrer el arbol
     private Relative root;
     Queue<Relative> queueRelatives = new LinkedList<>();
 
-    public FamilyTree(Relative root) {
-        this.root = root;
+    public FamilyTree() {
+
     }
 
     public Relative getRoot() {
